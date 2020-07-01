@@ -542,6 +542,10 @@ on post-fs-data
 
     start vendor.qcrild
     start vendor.qcrild2
+    
+    # Smart Charging
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
 
 on charger
     setprop sys.usb.controller a600000.dwc3
