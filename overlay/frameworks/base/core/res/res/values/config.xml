@@ -642,4 +642,8 @@
          For example, a device with notification and battery lights that supports
          pulsating and RGB control would set this config to 75. -->
     <integer name="config_deviceLightCapabilities">232</integer>
+    
+    <!-- SystemInfo Sys Nodes -->
+    <integer name="config_sysCPUTempMultiplier">1000</integer>
+    <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
 </resources>
