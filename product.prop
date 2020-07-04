@@ -67,6 +67,10 @@ persist.vendor.radio.force_on_dc=true
 ril.subscription.types=RUIM
 use.voice.path.for.pcm.voip=true
 
+# Spectrum
+spectrum.support=1
+persist.spectrum.kernel=Optimus_Drunk
+
 # Time
 persist.vendor.delta_time.enable=true
 
