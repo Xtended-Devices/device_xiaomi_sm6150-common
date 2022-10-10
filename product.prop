@@ -25,3 +25,9 @@ bluetooth.profile.opp.enabled?=true
 bluetooth.profile.pan.nap.enabled?=true
 bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
+
+# Gboard side padding
+ro.com.google.ime.kb_pad_port_l=4 
+ro.com.google.ime.kb_pad_port_r=4 
+ro.com.google.ime.kb_pad_land_l=64 
+ro.com.google.ime.kb_pad_land_r=64
