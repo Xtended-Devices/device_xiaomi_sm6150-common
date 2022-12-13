@@ -320,3 +320,10 @@ service vendor.hwcomposer-2-4 /vendor/bin/hw/android.hardware.graphics.composer@
     onrestart restart surfaceflinger
     socket pps stream 0660 system system
     writepid /dev/cpuset/foreground/tasks
+
+# Kill MTK PQ at startup
+service pq-2-2 /bin/sleep 12345d
+    disabled
+
+on property:sys.boot_completed=1
+    stop pq-2-2
